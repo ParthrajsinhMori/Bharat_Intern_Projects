@@ -6,7 +6,7 @@ Temperature Converter :
 Introduction : Welcome to the Temperature Converter project. It can be used to convert Temperatures between different units such as Celsius, Fahrenhit, Kelvin and Rankine.
 
 Features :                                                                       
-Simple Interface : It has user friendly interface which can be used by anyone.                   
+Simple Interface : It has user friendly interface.                   
 Different Units : It supports Celsius, Fahrenhit, Kelvin and Rankine units of Temperature.
 
 Technology Used : HTML, CSS and Javascript
