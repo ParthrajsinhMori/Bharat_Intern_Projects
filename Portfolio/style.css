@@ -1,0 +1,187 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    color:antiquewhite;
+}
+
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+body{
+    background-color: rgb(14, 75, 130);
+    font-family: 'Playpen Sans', cursive;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top:0px;
+    right: 0px;
+    padding: 13px 10%;
+    transition: 1s;
+    box-shadow: -3px -6px 10px white;
+}
+.portfolio{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgb(255, 0, 0);
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav a{
+    color :antiquewhite;
+    font-size: 1rem;
+    margin: 12px;
+}
+
+.nav a:hover{
+    color: red;
+    background-color: antiquewhite;
+    border-radius: 11%;
+}
+
+section{
+    padding: 45px 10%;
+}
+
+.home{
+    /* position: relative; */
+    width: 100%;
+    display: grid;
+    min-height: 100vh;
+    align-items: center;
+    grid-template-columns: 2.3fr 2fr 0fr;
+    gap:1rem;
+}
+.image{
+    order : 3;
+}
+.image img{
+    width: 100%;
+}
+.info span{
+    font-size: 1.7rem;
+    font-weight: 450;
+}
+.info h1{
+    font-size:3rem;
+}
+.info h2{
+    font-size:1.2rem;
+    font-weight: 350;
+}
+.resume{
+    display: inline-block;
+    background-color: antiquewhite;
+    color: blue;
+    border: 1rem;
+    padding: 0.6rem 1rem;
+    border-radius: 7%;
+}
+.resume:hover{
+    background-color : rgb(242, 107, 107);
+}
+.profilecontainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, auto));
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.profile{
+    display: flex;
+    padding: 28px;
+    width: 260px;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid whitesmoke;
+    box-shadow: 0px 3px 6px rgb(242, 70, 70);
+}
+.profile:hover{
+    background-color: antiquewhite;
+    color:blue;
+}
+.profile a{
+    color:black;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.profile h2{
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0.6rem 0 0.4rem;
+}
+.aboutme{
+    text-align: center;
+}
+.aboutme h1{
+    font-size: 2rem;
+}
+.aboutme span{
+    font-size: 1.5rem;
+}
+.information{
+    margin : 1rem 0 1.4rem;
+}
+.information .in{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.4rem;
+}
+.information .in span{
+    font-weight: 400;
+}
+.aboutt{
+    gap:1rem;
+    display: grid;
+    grid-template-columns: 2.3fr 3fr 0fr;
+    margin-top: 0.9rem;
+}
+.form{
+    display: grid;
+    place-items: center;
+    margin-top: 2rem;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+}
+form , input , textarea{
+    padding: 10px;
+    background-color: antiquewhite;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+.submit{
+    background-color:rgb(14, 75, 130);
+    justify-content: center;
+    color: antiquewhite;
+}
+.submit:hover{
+    color: rgb(14, 75, 130);
+    background-color: antiquewhite;
+}
+footer{
+    text-align: center;
+}
+.copyright{
+    width: 100%;
+    background-color: antiquewhite;
+    color: rgb(14, 75, 130);
+    text-align: center;
+}
