@@ -7,4 +7,5 @@ Introduction : This is a Portfolio website which includes sections such as Home,
 
 Technology used : HTML, CSS.
 
-How to view ? Just Download the folder "Portfolio" in your device and run the html file.
+How to view ? Just Download the folder "Portfolio" in your device and run the index.html file.
+
